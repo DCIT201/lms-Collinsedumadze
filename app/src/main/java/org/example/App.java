@@ -2,7 +2,7 @@ package assignment;
 
 public class App {
     public static void main(String[] args) {
-        Book book = new Book("Crushing: God Turns Pressure Into Power","T.D. Jakes", 2000);
+        Book book = new Book("1984", "George Orwell", 1949);
         System.out.println("Title: " + book.getTitle());
         System.out.println("Author: " + book.getAuthor());
         System.out.println("Year Published: " + book.getYearPublished());
