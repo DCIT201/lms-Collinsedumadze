@@ -1,5 +1,7 @@
 package assignment;
 
+import static org.junit.jupiter.api.Assertions.*;
+
 public class Book {
     private String title;
     private String author;
@@ -9,6 +11,9 @@ public class Book {
         this.title = "1984";
         this.author = "George Orwell";
         this.yearPublished = 1949;
+         assertEquals("1984", book.getTitle());
+        assertEquals("George Orwell", book.getAuthor());
+        assertEquals(1949, book.getYearPublished());
     }
 
     public String getTitle() {
