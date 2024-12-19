@@ -1,14 +1,10 @@
-/*
- * This should be your main class where all your objects will be created
- */
-package org.example;
+package assignment;
 
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
-
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        Book book = new Book();
+        System.out.println("Title: " + book.getTitle());
+        System.out.println("Author: " + book.getAuthor());
+        System.out.println("Year Published: " + book.getYearPublished());
     }
 }
